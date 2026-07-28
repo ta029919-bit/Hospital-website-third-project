@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare Hospital</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-hospital"></i>
+                <span>MediCare</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <button id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to MediCare Hospital</h1>
+            <p>Your Health Is Our Priority. We provide world-class healthcare with experienced doctors and modern facilities.</p>
+            <a href="#appointment" class="btn">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Our Hospital</h2>
+        <p>
+            MediCare Hospital is committed to providing high-quality healthcare
+            with advanced technology, experienced doctors, and compassionate care.Our hospital is equipped with advanced medical technology,experienced doctors,and highly trained staff to ensure the best possible care for every patient. We offer a wide range of health care services,including Cardiology,Neurology,Orthopedics,Pediatrics,Dermatology and Psychiatrist.Our mission is to improve the well being and health of our community.
+        </p>
+    </section>
+
+    <!-- Departments -->
+    <section id="departments">
+        <h2>Our Departments</h2>
+
+        <input type="text" id="search" placeholder="Search Department...">
+
+        <div class="department-container">
+
+            <div class="department-card">
+                <h3>Cardiology</h3>
+                <p>Heart Care Services</p>
+            </div>
+
+            <div class="department-card">
+                <h3>Neurology</h3>
+                <p>Brain & Nerve Care</p>
+            </div>
+
+            <div class="department-card">
+                <h3>Orthopedics</h3>
+                <p>Bone & Joint Care</p>
+            </div>
+
+            <div class="department-card">
+                <h3>Pediatrics</h3>
+                <p>Child Care</p>
+            </div>
+
+            <div class="department-card">
+                <h3>Dermatology</h3>
+                <p>Skin Care</p>
+            </div>
+
+            <div class="department-card">
+                <h3>Emergency</h3>
+                <p>24/7 Emergency Services</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Doctors -->
+    <section id="doctors">
+        <h2>Our Doctors</h2>
+
+        <div class="doctor-container">
+
+            <div class="doctor-card">
+                <h3>Dr. Ahmed</h3>
+                <p>Cardiologist</p>
+            </div>
+
+            <div class="doctor-card">
+                <h3>Dr. Sara</h3>
+                <p>Neurologist</p>
+            </div>
+
+            <div class="doctor-card">
+                <h3>Dr. Ali</h3>
+                <p>Orthopedic Surgeon</p>
+            </div>
+
+            <div class="doctor-card">
+                <h3>Dr. Fatima</h3>
+                <p>Pediatrician</p>
+            </div>
+
+            <div class="doctor-card">
+                <h3>Dr. Hassan</h3>
+                <p>Dermatologist</p>
+            </div>
+
+            <div class="doctor-card">
+                <h3>Dr. Maryam</h3>
+                <p>Emergency Specialist</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Appointment -->
+    <section id="appointment">
+        <h2>Book Appointment</h2>
+
+        <form id="appointment-form">
+
+            <input type="text" placeholder="Full Name" id="name" required>
+
+            <input type="email" placeholder="Email" id="email" required>
+
+            <input type="tel" placeholder="Phone Number" id="phone" required>
+
+            <input type="date" id="date" required>
+
+            <button type="submit">Book Now</button>
+
+        </form>
+
+    </section>
+
+    <!-- Health Packages -->
+    <section id="packages">
+        <h2>Health Packages</h2>
+
+        <div class="package-card">Basic Health Checkup</div>
+        <div class="package-card">Heart Care Package</div>
+        <div class="package-card">Women's Health Package</div>
+        <div class="package-card">Diabetes Screening</div>
+
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews">
+        <h2>Patient Reviews</h2>
+
+        <div class="testimonial">
+            <p>"Excellent doctors and friendly staff."</p>
+            <h4>- Ayesha</h4>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>How can I book an appointment?</h3>
+            <p>Use our online appointment form.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is emergency available 24/7?</h3>
+            <p>Yes, our emergency department is open all day.</p>
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p>📍 Lahore, Pakistan</p>
+        <p>📞 +92 300 1234567</p>
+        <p>✉ info@medicare.com</p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 MediCare Hospital. All Rights Reserved.</p>
+    </footer>
+
+    <button id="topBtn">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
